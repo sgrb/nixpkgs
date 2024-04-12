@@ -50,4 +50,6 @@ self: super: {
   transformers = null;
   unix = null;
   xhtml = null;
+
+  happy = haskellLib.dontCheck super.happy;
 }
